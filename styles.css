@@ -29,9 +29,11 @@
 }
 .heading {
   text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #7b7b7b;
 }
 .cta-btn {
-  background-color: #4caf50;
+  background-color: rgb(64 126 201);
   color: white;
   border: none;
   padding: 10px 18px;
@@ -43,6 +45,7 @@
   gap: 20px;
   align-items: center;
   padding: 20px;
+  font-family: "Lato", sans-serif;
 }
 .product-carousel {
   display: flex;
@@ -61,6 +64,11 @@
   padding: 10px;
   background-color: #f9f9f9;
 }
+.carousel-item-price {
+  color: #6496d3;
+  font-weight: bold;
+}
+
 .indicator {
   height: 10px;
   width: 10px;
